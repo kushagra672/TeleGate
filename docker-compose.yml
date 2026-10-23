@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  bot:
+    build: .
+    container_name: telegram_funnel_bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    # Alternatively provide environment variables directly
+    # environment:
+    #   - API_ID=
+    #   - API_HASH=
+    #   - BOT_TOKEN=
+    #   - MONGO_URI=
+    #   - CHANNEL_ID=
+    #   - ADMIN_CHAT_ID=
+    #   - ADMIN_IDS=
+    #   - TEMPLATE_CHANNEL_ID=

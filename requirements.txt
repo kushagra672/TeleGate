@@ -1,0 +1,9 @@
+pyrogram==2.0.106
+pymongo==4.16.0
+motor
+aiohttp
+dnspython==2.8.0
+apscheduler
+
+# Optional, but recommended for Pyrogram performance
+tgcrypto

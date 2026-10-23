@@ -1,0 +1,29 @@
+# Git
+.git
+.gitignore
+
+# Environment variables & secrets
+.env
+.env.*
+
+# Python Cache & Bytecode
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual Environment
+venv
+.venv
+env
+
+# Pyrogram Sessions
+*.session
+*.session-journal
+
+# Documentation & IDE
+README.md
+.vscode
+.idea
+*.log
